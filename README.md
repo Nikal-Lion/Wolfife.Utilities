@@ -1,0 +1,2 @@
+# Wolfife.Common
+common library
