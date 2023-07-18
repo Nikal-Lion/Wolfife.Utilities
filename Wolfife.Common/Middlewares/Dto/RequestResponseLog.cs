@@ -10,7 +10,7 @@ namespace Wolfife.Common.Middlewares.Dto
 {
     public class RequestResponseLog
     {
-        private readonly ILogger<RequestLoggerMiddleware> _logger;
+        private readonly ILogger<RequestResponseLog> _logger;
         protected RequestResponseLog()
         {
 
@@ -21,7 +21,7 @@ namespace Wolfife.Common.Middlewares.Dto
         /// </summary>
         /// <param name="logger"></param>
         /// <param name="aliyunLogger"></param>
-        public RequestResponseLog(ILogger<RequestLoggerMiddleware> logger)
+        public RequestResponseLog(ILogger<RequestResponseLog> logger)
         : this()
         {
             this._logger = logger;
